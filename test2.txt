@@ -1,0 +1,1240 @@
+0
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+0
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+0
+
+
+[]
+<class 'list'>
+
+
+
+0
+
+
+[]
+<class 'list'>
+
+
+
+0
+
+
+[]
+<class 'list'>
+
+
+
+1
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+1
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+1
+
+
+[]
+<class 'list'>
+
+
+
+1
+
+
+[]
+<class 'list'>
+
+
+
+1
+
+
+[]
+<class 'list'>
+
+
+
+2
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+2
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+2
+
+
+[]
+<class 'list'>
+
+
+
+2
+
+
+[]
+<class 'list'>
+
+
+
+2
+
+
+[]
+<class 'list'>
+
+
+
+3
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+3
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+3
+
+
+[]
+<class 'list'>
+
+
+
+3
+
+
+[]
+<class 'list'>
+
+
+
+3
+
+
+[]
+<class 'list'>
+
+
+
+4
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+4
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+4
+
+
+[]
+<class 'list'>
+
+
+
+4
+
+
+[]
+<class 'list'>
+
+
+
+4
+
+
+[]
+<class 'list'>
+
+
+
+5
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+5
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+5
+
+
+[]
+<class 'list'>
+
+
+
+5
+
+
+[]
+<class 'list'>
+
+
+
+5
+
+
+[]
+<class 'list'>
+
+
+
+6
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+6
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+6
+
+
+[]
+<class 'list'>
+
+
+
+6
+
+
+[]
+<class 'list'>
+
+
+
+6
+
+
+[]
+<class 'list'>
+
+
+
+7
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+7
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+7
+
+
+[]
+<class 'list'>
+
+
+
+7
+
+
+[]
+<class 'list'>
+
+
+
+7
+
+
+[]
+<class 'list'>
+
+
+
+8
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+8
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+8
+
+
+[]
+<class 'list'>
+
+
+
+8
+
+
+[]
+<class 'list'>
+
+
+
+8
+
+
+[]
+<class 'list'>
+
+
+
+9
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+9
+
+
+['$HOME/lib/cuda-9.1.85/bin/nvcc -x cu -I . -c -std=c++11 libs/mp11/test/mp11.cpp']
+<class 'list'>
+
+
+
+9
+
+
+[]
+<class 'list'>
+
+
+
+9
+
+
+['wget https://developer.nvidia.com/compute/cuda/9.1/Prod/local_installers/cuda_9.1.85_387.26_linux', 'sh cuda_9.1.85_387.26_linux --silent --toolkit --override --toolkitpath=$HOME/lib/cuda-9.1.85']
+<class 'list'>
+
+
+
+9
+
+
+[]
+<class 'list'>
+
+
+
+10
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+10
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+10
+
+
+[]
+<class 'list'>
+
+
+
+10
+
+
+[]
+<class 'list'>
+
+
+
+10
+
+
+[]
+<class 'list'>
+
+
+
+11
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+11
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+11
+
+
+[]
+<class 'list'>
+
+
+
+11
+
+
+[]
+<class 'list'>
+
+
+
+11
+
+
+[]
+<class 'list'>
+
+
+
+12
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+12
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+12
+
+
+[]
+<class 'list'>
+
+
+
+12
+
+
+[]
+<class 'list'>
+
+
+
+12
+
+
+[]
+<class 'list'>
+
+
+
+13
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+13
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+13
+
+
+[]
+<class 'list'>
+
+
+
+13
+
+
+[]
+<class 'list'>
+
+
+
+13
+
+
+[]
+<class 'list'>
+
+
+
+14
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+14
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+14
+
+
+[]
+<class 'list'>
+
+
+
+14
+
+
+[]
+<class 'list'>
+
+
+
+14
+
+
+[]
+<class 'list'>
+
+
+
+15
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+15
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+15
+
+
+[]
+<class 'list'>
+
+
+
+15
+
+
+[]
+<class 'list'>
+
+
+
+15
+
+
+[]
+<class 'list'>
+
+
+
+16
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+16
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+16
+
+
+[]
+<class 'list'>
+
+
+
+16
+
+
+[]
+<class 'list'>
+
+
+
+16
+
+
+[]
+<class 'list'>
+
+
+
+17
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+17
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+17
+
+
+[]
+<class 'list'>
+
+
+
+17
+
+
+[]
+<class 'list'>
+
+
+
+17
+
+
+[]
+<class 'list'>
+
+
+
+18
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+18
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+18
+
+
+[]
+<class 'list'>
+
+
+
+18
+
+
+[]
+<class 'list'>
+
+
+
+18
+
+
+[]
+<class 'list'>
+
+
+
+19
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+19
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+19
+
+
+[]
+<class 'list'>
+
+
+
+19
+
+
+[]
+<class 'list'>
+
+
+
+19
+
+
+[]
+<class 'list'>
+
+
+
+20
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+20
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+20
+
+
+[]
+<class 'list'>
+
+
+
+20
+
+
+[]
+<class 'list'>
+
+
+
+20
+
+
+[]
+<class 'list'>
+
+
+
+21
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+21
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+21
+
+
+[]
+<class 'list'>
+
+
+
+21
+
+
+[]
+<class 'list'>
+
+
+
+21
+
+
+[]
+<class 'list'>
+
+
+
+22
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+22
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+22
+
+
+[]
+<class 'list'>
+
+
+
+22
+
+
+[]
+<class 'list'>
+
+
+
+22
+
+
+[]
+<class 'list'>
+
+
+
+23
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+23
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+23
+
+
+[]
+<class 'list'>
+
+
+
+23
+
+
+[]
+<class 'list'>
+
+
+
+23
+
+
+[]
+<class 'list'>
+
+
+
+24
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+24
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+24
+
+
+[]
+<class 'list'>
+
+
+
+24
+
+
+[]
+<class 'list'>
+
+
+
+24
+
+
+[]
+<class 'list'>
+
+
+
+25
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+25
+
+
+['clang++-5.0 -I . -c -x cuda -nocudainc -nocudalib --cuda-gpu-arch=sm_30 -D__device__="__attribute__((device))" -std=c++11 libs/mp11/test/mp11.cpp', 'clang++-5.0 -I . -c -x cuda -nocudainc -nocudalib --cuda-gpu-arch=sm_30 -D__device__="__attribute__((device))" -std=c++14 libs/mp11/test/mp11.cpp', 'clang++-5.0 -I . -c -x cuda -nocudainc -nocudalib --cuda-gpu-arch=sm_30 -D__device__="__attribute__((device))" -std=c++1z libs/mp11/test/mp11.cpp']
+<class 'list'>
+
+
+
+25
+
+
+[]
+<class 'list'>
+
+
+
+25
+
+
+[]
+<class 'list'>
+
+
+
+25
+
+
+[]
+<class 'list'>
+
+
+
+26
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+26
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+26
+
+
+[]
+<class 'list'>
+
+
+
+26
+
+
+[]
+<class 'list'>
+
+
+
+26
+
+
+[]
+<class 'list'>
+
+
+
+27
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+27
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+27
+
+
+[]
+<class 'list'>
+
+
+
+27
+
+
+[]
+<class 'list'>
+
+
+
+27
+
+
+[]
+<class 'list'>
+
+
+
+28
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+28
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+28
+
+
+[]
+<class 'list'>
+
+
+
+28
+
+
+[]
+<class 'list'>
+
+
+
+28
+
+
+[]
+<class 'list'>
+
+
+
+29
+
+
+['BOOST_BRANCH=develop && [ "$TRAVIS_BRANCH" == "master" ] && BOOST_BRANCH=master || true', 'cd ..', 'git clone -b $BOOST_BRANCH --depth 1 https://github.com/boostorg/boost.git boost-root', 'cd boost-root', 'git submodule update --init tools/boostdep', 'mkdir -p libs/mp11', 'cp -r $TRAVIS_BUILD_DIR/* libs/mp11', 'python tools/boostdep/depinst/depinst.py mp11', './bootstrap.sh', './b2 headers']
+<class 'list'>
+
+
+
+29
+
+
+['echo "using $TOOLSET : : $COMPILER ;" > ~/user-config.jam', './b2 -j3 libs/mp11/test toolset=$TOOLSET cxxstd=$CXXSTD ${CXXFLAGS:+cxxflags="$CXXFLAGS"}']
+<class 'list'>
+
+
+
+29
+
+
+[]
+<class 'list'>
+
+
+
+29
+
+
+[]
+<class 'list'>
+
+
+
+29
+
+
+[]
+<class 'list'>
+
+
+
+30
+
+
+True
+<class 'bool'>
+
+
+
+30
+
+
+['mkdir __build__ && cd __build__', 'cmake ..', 'cmake --build . --target check']
+<class 'list'>
+
+
+
+30
+
+
+[]
+<class 'list'>
+
+
+
+30
+
+
+[]
+<class 'list'>
+
+
+
+30
+
+
+[]
+<class 'list'>
+
+
+
