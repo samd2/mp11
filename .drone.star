@@ -41,9 +41,9 @@ def main(ctx):
   osx_cxx("TOOLSET=clang COMPILER=clang++ CXXSTD=11,14,1 Job 27", "clang++", packages="", buildtype="boost", xcode_version="8.3", environment={'TOOLSET': 'clang', 'COMPILER': 'clang++', 'CXXSTD': '11,14,1z', 'DRONE_JOB_OS_NAME': 'osx', 'DRONE_JOB_UUID': 'bc33ea4e26'}),
   osx_cxx("TOOLSET=clang COMPILER=clang++ CXXSTD=11,14,1 Job 28", "clang++", packages="", buildtype="boost", xcode_version="9.4", environment={'TOOLSET': 'clang', 'COMPILER': 'clang++', 'CXXSTD': '11,14,1z', 'DRONE_JOB_OS_NAME': 'osx', 'DRONE_JOB_UUID': '0a57cb53ba'}),
   osx_cxx("TOOLSET=clang COMPILER=clang++ CXXSTD=11,14,1 Job 29", "clang++", packages="", buildtype="boost", xcode_version="10.1", environment={'TOOLSET': 'clang', 'COMPILER': 'clang++', 'CXXSTD': '11,14,1z', 'DRONE_JOB_OS_NAME': 'osx', 'DRONE_JOB_UUID': '7719a1c782'}),
-  linux_cxx("CMAKE_STANDALONE_TEST=1 Job 30", "clang++", packages="", buildtype="9f3de5ec05-1085136946", environment={'CMAKE_STANDALONE_TEST': '1', 'DRONE_JOB_UUID': '22d200f867'}),
-  linux_cxx("CMAKE_SUBDIR_TEST=1 Job 31", "clang++", packages="", buildtype="9f3de5ec05-fda7c76df5", environment={'CMAKE_SUBDIR_TEST': '1', 'DRONE_JOB_UUID': '632667547e'}),
-  linux_cxx("CMAKE_INSTALL_TEST=1 Job 32", "clang++", packages="", buildtype="9f3de5ec05-02f3f58ec1", environment={'CMAKE_INSTALL_TEST': '1', 'DRONE_JOB_UUID': 'cb4e5208b4'}),
+  linux_cxx("CMAKE_STANDALONE_TEST=1 Job 30", "clang++", packages="", buildtype="41e711e69e-1085136946", environment={'CMAKE_STANDALONE_TEST': '1', 'DRONE_JOB_UUID': '22d200f867'}),
+  linux_cxx("CMAKE_SUBDIR_TEST=1 Job 31", "clang++", packages="", buildtype="41e711e69e-fda7c76df5", environment={'CMAKE_SUBDIR_TEST': '1', 'DRONE_JOB_UUID': '632667547e'}),
+  linux_cxx("CMAKE_INSTALL_TEST=1 Job 32", "clang++", packages="", buildtype="41e711e69e-02f3f58ec1", environment={'CMAKE_INSTALL_TEST': '1', 'DRONE_JOB_UUID': 'cb4e5208b4'}),
   linux_cxx("BOOST_CMAKE_TEST=1 Job 33", "clang++", packages="", buildtype="7b9003fded-e64003d10f", environment={'BOOST_CMAKE_TEST': '1', 'DRONE_JOB_UUID': 'b6692ea5df'}),
   ]
 

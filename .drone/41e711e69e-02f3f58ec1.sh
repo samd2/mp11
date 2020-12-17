@@ -15,7 +15,7 @@ echo '==================================> BEFORE_INSTALL'
 
 echo '==================================> INSTALL'
 
-True
+true
 
 echo '==================================> BEFORE_SCRIPT'
 
@@ -24,7 +24,11 @@ echo '==================================> BEFORE_SCRIPT'
 echo '==================================> SCRIPT'
 
 mkdir __build__ && cd __build__
-cmake ..
+cmake -DCMAKE_INSTALL_PREFIX=~/.local ..
+cmake --build . --target install
+cd ../test/cmake_install_test && mkdir __build__ && cd __build__
+cmake -DCMAKE_INSTALL_PREFIX=~/.local ..
+cmake --build .
 cmake --build . --target check
 
 echo '==================================> AFTER_SUCCESS'
